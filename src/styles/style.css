@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, input, button, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+header {
+    float: left;
+    width: 100%;
+}
+
+header #meioHeader {
+    max-width: 960px;
+    margin: auto;
+}
+
+header #meioHeader h1 {
+    float: left;
+    width: 18%;
+}
+
+header #meioHeader h1 img {
+    width: 100%;
+}
+
+header #meioHeader #LadoDireito {
+    float: right;
+    width: 80%;
+}
+
+
+header #meioHeader #LadoDireito ul {
+    float: right;
+    width: 100%;
+}
+
+header #meioHeader #LadoDireito ul.associar {
+    float: right;
+    width: 30%;
+    padding-top: 8px;
+}
+
+header #meioHeader #LadoDireito ul#Menu {
+    float: right;
+    clear: both;
+    width: 70%;
+    padding-top: 80px;
+}
+
+header #meioHeader #LadoDireito ul li {
+    float: right;
+    padding: 0 6px;
+}
+
+header #meioHeader #LadoDireito ul li a {
+    color: #19a558;
+    text-decoration: none;
+}
+
+header #meioHeader #LadoDireito ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#Banner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/bg-Site.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+}
+
+#Banner #meioBanner {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+#Banner #meioBanner h2 {
+    float: left;
+    width: 50%;
+    padding-top: 80px;
+    color: #19a558;
+}
+
+#Banner #meioBanner p {
+    float: left;
+    width: 50%;
+    clear: both;
+    padding: 10px 0;
+}
+
+#botao {
+    clear: both;
+}
+
+#Content {
+    float: left;
+    width: 100%;;
+}
+
+#MeioContent {
+    max-width: 960px;
+    margin: auto;
+}
+
+#MeioContent ul {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+}
+
+#MeioContent ul li {
+    float: left;
+    width: 22%;
+    padding: 8px;
+}
+
+#MeioContent ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#MeioContent ul li a:hover {
+    text-decoration: underline;
+}
+
+#MeioContent ul li img {
+    float: left;
+    width: 100%;
+}
+
+#MeioContent ul li h4 {
+    float: left;
+    width: 100%;
+    padding: 8px 0;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #0c5a2f;
+    padding: 20px 0;
+}
+
+#meioFooter {
+    max-width: 960px;
+    margin: auto;
+}
+
+#meioFooter ul {
+    width: 80px;
+    margin: auto;
+}
+
+#meioFooter ul li {
+    float: left;
+}
+
+#meioFooter p {
+    float: left;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+#face {
+    font-size: 30px;
+    color: #fff;
+}
+
+#insta {
+    font-size: 30px;
+    color: #fff;
+}
